@@ -2,10 +2,10 @@
 import 'package:orzu_grand/all_pages.dart';
 
 sealed class KTImagesWidgets {
-  static final message = Image(
+  static const message = Image(
     image: KTImages.messages,
-    height: 30.sp,
-    width: 30.sp,
+    height: 30,
+    width: 30,
   );
 
   static const tickSquareWidget = Image(
@@ -14,9 +14,9 @@ sealed class KTImagesWidgets {
     width: 35,
   );
   static const boxWidget =  Image(image: KTImages.box,height: 98,width: 98,);
-  static final xitWidget = Image(
+  static const xitWidget = Image(
     image: KTImages.xit,
-    height: 25.h,
+    height: 25,
   );
   static final playStationWidget = Image(
     image: KTImages.playStation,
@@ -43,18 +43,18 @@ sealed class KTImagesWidgets {
     height: 150.h,
   );
 
-  static final homegrey = Image(
-    image: KTImages.home,height: 30.sp,width: 30.sp,color: Colors.grey,);
-  static final homeOrange = Image(
-  image: KTImages.home,height: 30.sp,width: 30.sp,);
+  static const homegrey = Image(
+    image: KTImages.home,height: 30,width: 30,color: Colors.grey,);
+  static const homeOrange = Image(
+  image: KTImages.home,height: 30,width: 30,);
 
-  static Image  searchButtonGrey = Image(
-            image: KTImages.searchButton,height: 25.h,width: 25.w,);
-  static Image searchButtonOrange = Image(
-            image: KTImages.searchButton,height: 25.h,width: 25.w,color: KTColor.orange255,);
-  static Image shoppingCartFullGrey = Image(
-            image: KTImages.shoppingCartFull,height: 25.h,width: 25.w,color: KTColor.grey123,);
-  static Image shoppingCartFullOrange = Image(
-            image: KTImages.shoppingCartFull,height: 25.h,width: 25.w,color: KTColor.orange255,);
+  static Image  searchButtonGrey = const Image(
+            image: KTImages.searchButton,height: 25,width: 25,);
+  static Image searchButtonOrange = const Image(
+            image: KTImages.searchButton,height: 25,width: 25,color: KTColor.orange255,);
+  static Image shoppingCartFullGrey = const Image(
+            image: KTImages.shoppingCartFull,height: 25,width: 25,color: KTColor.grey123,);
+  static Image shoppingCartFullOrange = const Image(
+            image: KTImages.shoppingCartFull,height: 25,width: 25,color: KTColor.orange255,);
 
 }

@@ -52,14 +52,14 @@ class _HomePageState extends State<HomePage> {
           Padding(
             padding: EdgeInsets.symmetric(horizontal: 15.sp),
             child: SizedBox(
-              height: 180.h,
+              height: 150.h,
               child:  ListView(
                 shrinkWrap: true,
                 scrollDirection: Axis.horizontal,
                 children: [
                   Container(
-                    height: 150,
-                    width: 326.w,
+                    height: 140,
+                    width: 300.w,
                     padding: EdgeInsets.only(left: 10.sp, top: 10.h),
                     decoration: BoxDecoration(
                       color: Colors.white,
@@ -140,7 +140,7 @@ class _HomePageState extends State<HomePage> {
                     ),
                   ),
                 ],
-              ),//const KTListViewZabratZakas(),
+              ),
             ),
           ),
           SizedBox(

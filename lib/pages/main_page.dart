@@ -18,7 +18,7 @@ class _MainPageState extends State<MainPage> {
 
   List<BottomNavigationBarItem> buildBottomNavBarItems() {
     return  [
-      BottomNavigationBarItem(
+      const BottomNavigationBarItem(
         icon: KTImagesWidgets.homegrey,
         activeIcon:  KTImagesWidgets.homeOrange,
         label: KTStrings.glavni,

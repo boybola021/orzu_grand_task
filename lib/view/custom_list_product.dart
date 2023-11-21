@@ -16,7 +16,8 @@ sealed class KTListProduct{
                   spreadRadius: 5,
                   blurRadius: 5,
                   color: Colors.grey.shade300)
-            ]),
+            ],
+        ),
         child: Padding(
           padding: EdgeInsets.only(top: 15.h, left: 5.w),
           child: Column(
@@ -59,6 +60,7 @@ sealed class KTListProduct{
                 onPressed: () {},
                 color: KTColor.orange255,
               ),
+              SizedBox(height: 20.h,),
             ],
           ),
         ),
@@ -68,15 +70,16 @@ sealed class KTListProduct{
       padding: EdgeInsets.symmetric(horizontal: 15.sp),
       child: DecoratedBox(
         decoration: BoxDecoration(
-            borderRadius: const BorderRadius.all(Radius.circular(10)),
-            color: Colors.white,
-            boxShadow: [
-              BoxShadow(
-                  offset: const Offset(0, 0),
-                  spreadRadius: 5,
-                  blurRadius: 5,
-                  color: Colors.grey.shade300)
-            ]),
+          borderRadius: const BorderRadius.all(Radius.circular(10)),
+          color: Colors.white,
+          boxShadow: [
+            BoxShadow(
+                offset: const Offset(0, 0),
+                spreadRadius: 5,
+                blurRadius: 5,
+                color: Colors.grey.shade300)
+          ],
+        ),
         child: Padding(
           padding: EdgeInsets.only(top: 15.h, left: 5.w),
           child: Column(
@@ -119,6 +122,7 @@ sealed class KTListProduct{
                 onPressed: () {},
                 color: KTColor.orange255,
               ),
+              SizedBox(height: 20.h,),
             ],
           ),
         ),
@@ -128,22 +132,32 @@ sealed class KTListProduct{
       padding: EdgeInsets.symmetric(horizontal: 15.sp),
       child: DecoratedBox(
         decoration: BoxDecoration(
-            borderRadius: const BorderRadius.all(Radius.circular(10)),
-            color: Colors.white,
-            boxShadow: [
-              BoxShadow(
-                  offset: const Offset(0, 0),
-                  spreadRadius: 5,
-                  blurRadius: 5,
-                  color: Colors.grey.shade300)
-            ]),
+          borderRadius: const BorderRadius.all(Radius.circular(10)),
+          color: Colors.white,
+          boxShadow: [
+            BoxShadow(
+                offset: const Offset(0, 0),
+                spreadRadius: 5,
+                blurRadius: 5,
+                color: Colors.grey.shade300)
+          ],
+        ),
         child: Padding(
           padding: EdgeInsets.only(top: 15.h, left: 5.w),
           child: Column(
             children: [
+
               const KTProductView(
                 img: KTImages.fridge,
                 description: KTStrings.fridge,
+                price: KTStrings.money175,
+              ),
+              SizedBox(
+                height: 20.h,
+              ),
+              const KTProductView(
+                img: KTImages.playStation,
+                description: KTStrings.playStationDesc,
                 price: KTStrings.money175,
               ),
               SizedBox(
@@ -154,14 +168,6 @@ sealed class KTListProduct{
                 description: KTStrings.cleaner,
                 price: KTStrings.money175,
                 priceCheap: KTStrings.money2,
-              ),
-              SizedBox(
-                height: 20.h,
-              ),
-              const KTProductView(
-                img: KTImages.playStation,
-                description: KTStrings.playStationDesc,
-                price: KTStrings.money175,
               ),
               SizedBox(
                 height: 20.h,
@@ -179,6 +185,7 @@ sealed class KTListProduct{
                 onPressed: () {},
                 color: KTColor.orange255,
               ),
+              SizedBox(height: 20.h,),
             ],
           ),
         ),
